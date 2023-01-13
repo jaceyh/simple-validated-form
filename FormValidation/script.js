@@ -69,8 +69,6 @@
     return true;
   }
 
-
-
   function validateForm() {
     let isValidEmail = validateEmail();
     let isValidPassword = validatePassword();
@@ -88,6 +86,4 @@
   emailInput.addEventListener('input', validateEmail);
   passwordInput.addEventListener('input', validatePassword);
 
-
-  // THE RETURN STATEMENT HERE
 })();
